@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Aaron Philip"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /photos/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The landing page of everything Aaron"
   location         :
   email            :
