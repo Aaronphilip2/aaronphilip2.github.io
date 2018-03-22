@@ -8,6 +8,19 @@ $background-color: white;
     color : #0092ca !important;
 }
 
+.greedy-nav__toggle {
+    background-color: transparent !important;
+}
+
+.navicon, .navicon::before, .navicon::after {
+    background-color: #0092ca !important;
+}
+
+.close .navicon  {
+    background-color: transparent !important;
+    transition: 0s;
+}
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
