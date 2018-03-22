@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Aaron's Website"
+title                    : Aaron Philip
 title_separator          : "-"
-name                     : "Aaron Philip"
+name                     : Aaron Philip
 description              : "The landing page of everything Aaron"
 url                      : "http://www.aaronpphilip.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -97,18 +97,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aaron Philip"
+  name             : 
   avatar           : /photos/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The landing page of everything Aaron"
+  bio              : "UCLA CS '21, deep learning enthusiast"
   location         :
-  email            :
+  email            : aaronpphilip@ucla.edu
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : aaron.philip.9022
   foursquare       :
   github           : aaronphilip2
   gitlab           :

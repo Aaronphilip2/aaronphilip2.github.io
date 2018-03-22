@@ -6,6 +6,7 @@ $background-color: white;
 
 .site-title {
     color : #0092ca !important;
+    font-size: 1.1em;
 }
 
 .greedy-nav__toggle {
@@ -19,6 +20,10 @@ $background-color: white;
 .close .navicon  {
     background-color: transparent !important;
     transition: 0s;
+}
+
+.greedy-nav .visible-links a:before {
+    background: #0092ca !important;
 }
 
 @charset "utf-8";
