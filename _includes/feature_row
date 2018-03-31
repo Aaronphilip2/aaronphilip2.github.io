@@ -30,7 +30,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h3 class="archive__item-title">{{ f.title }}</h3>
           {% endif %}
 
           {% if f.excerpt %}
@@ -40,7 +40,12 @@
           {% endif %}
 
           {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: "" }}
+
+            {%if f.btn_icon%}
+              <i class="{{ f.btn_icon }}"></i>
+            {% endif %}
+            </a></p>
           {% endif %}
         </div>
       </div>
