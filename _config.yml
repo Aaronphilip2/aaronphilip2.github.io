@@ -22,7 +22,7 @@ name                     : Aaron Philip
 description              : "The landing page of everything Aaron"
 url                      : "http://www.aaronpphilip.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : aaronphilip2 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : aaronphilip # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : 
   avatar           : /images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "UCLA CS '21, deep learning enthusiast"
+  bio              : "UCLA CS '21 | deep learning enthusiast | enjoys teaching ML | loves sports"
   location         :
   email            : aaronpphilip@ucla.edu
   uri              :
@@ -110,7 +110,7 @@ author:
   flickr           :
   facebook         : aaron.p.philip
   foursquare       :
-  github           : aaronphilip2
+  github           : aaronphilip
   gitlab           :
   google_plus      :
   keybase          : aaronphilip
