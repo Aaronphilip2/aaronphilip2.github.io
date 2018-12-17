@@ -21,7 +21,7 @@ Feel free to check out more in-depth descriptions of my projects [here](/project
 
 Since I like to use photoshop to put my friends' faces on other people, I decided that I would use what I had learned about deep learning to make that task eaiser.
 
-Using Keras and Tensorflow, I was able to train a fully convolutional network to segment faces. After about 10 hours of training on an NVIDIA GeForce GTX 1050 over 9 epochs, the model got to about 94% accuracy. Now, I am using this model to create a website that will allow anyone to quickly and easily extract a face from an image.
+Using Keras and Tensorflow, I was able to train a fully convolutional network to segment faces. After about 4 hours of training on an NVIDIA GeForce GTX 1050 over 9 epochs, the model got to about 92% accuracy. Now, I am using this model to create a website that will allow anyone to quickly and easily extract a face from an image.
 
 <img src="../images/UAS.png" style="height: 1em"> **Unmanned Aerial Systems**
 
